@@ -1,0 +1,15 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%
+    String nama = request.getParameter("nama");
+    String umur = request.getParameter("umur");
+%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+         <h1>Hallo my name <%= nama %></h1>
+        <h1>my age <%= umur %></h1>
+    </body>
+</html>
